@@ -35,7 +35,7 @@
         degrees = degrees % degreesInACircle;
     }
     
-    return [NSString stringWithFormat:@"Turn %d degrees.", degrees];
+    return [NSString stringWithFormat:@"Turn %d degrees!", degrees];
 }
 
 -(NSString *)changeGears:(NSString *)newGearName
