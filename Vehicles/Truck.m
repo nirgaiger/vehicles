@@ -26,7 +26,7 @@
     NSMutableString *backwardString = [NSMutableString string];
     if (self.cargoCapacityCubicFeet > 100) {
         //Sound a backup alarm first
-        [backwardString appendFormat:@"Wait for \"%@\", then %@", [self soundBackupAlarm], [self changeGears:@"Reverse"]];
+        [backwardString appendFormat:@"Wait for \"%@\", then %@", [self soundBackupAlarm], [self changeGears:@"Reverse!"]];
     } else {
         [backwardString appendFormat:@"%@ Depress gas pedal.", [self changeGears:@"Reverse"]];
     }
